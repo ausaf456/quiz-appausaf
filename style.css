@@ -1,0 +1,70 @@
+.mybhg{
+    font-family: monospace;
+    color: rgb(221, 12, 12);
+          text-shadow:0 0 7px rgb(4, 49, 250),
+              0 0 10px rgb(56, 90, 255),
+              0 0 21px rgb(93, 136, 255),
+              0 0 42px rgb(139, 147, 255),
+              0 0 82px rgb(155, 161, 255),
+              0 0 92px rgb(199, 208, 253),
+              0 0 102px rgb(222, 223, 255),
+              0 0 110px rgb(243, 246, 255);
+    }
+     .mybhg:hover{
+    animation-name: ani;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+     
+    
+     } 
+    .mybhg:focus{
+    animation-name: ani;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+    
+    }
+    
+    
+    
+    .perc{
+    margin-top: 30%;
+    animation-name: perci;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    
+    }
+    @keyframes perci {
+      from{background-color: blue};
+      to{background-color: red};
+    }
+    
+    
+    
+    @keyframes ani {
+        0% {background-color: #00640f; color: #fff;
+          text-shadow:0 0 7px #fff,
+              0 0 10px #fff,
+              0 0 21px #fff,
+              0 0 42px #0fa,
+              0 0 82px #0fa,
+              0 0 92px #0fa,
+              0 0 102px #0fa,
+              0 0 129px #0fa;}
+        25% {background-color: #048308;}
+        50% {background-color: #02047c;}
+        75% {background-color: #7a001a;}
+        100% {background-color: #da0000;
+          color: #fff;
+          text-shadow:0 0 7px #fff,
+              0 0 10px #fff,
+              0 0 21px #fff,
+              0 0 42px rgb(10, 168, 196),
+              0 0 82px rgb(10, 168, 196),
+              0 0 92px rgb(10, 168, 196),
+              0 0 102px rgb(10, 168, 196),
+              0 0 129px rgb(10, 168, 196);}
+      }
